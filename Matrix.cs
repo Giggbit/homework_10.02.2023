@@ -103,5 +103,12 @@ namespace Перегрузка_операции_homework_10._02._2023
             else
                 return false;
         }
+
+        public int this[int i, int j] {
+            get => mas[i, j];
+            set => mas[i, j] = value;
+        }
+
+
     }
 }
